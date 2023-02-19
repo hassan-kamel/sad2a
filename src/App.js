@@ -37,6 +37,10 @@ const App = () => {
           alt=''
         />
       </div>
+      <div className='name'>abdelrahman hussien</div>
+      <div className='sad'>
+        صدقة جارية على روح المغفور له بأذن الله / محمد عوض فريد
+      </div>
       <audio src={currentSong?.url} ref={audioElem} onTimeUpdate={onPlaying} />
       <Player
         songs={songs}
